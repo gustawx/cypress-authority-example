@@ -1,0 +1,5 @@
+{
+  "extends": "../tsconfig.json",
+  "compileOnSave": false,
+  "include": ["**/*.*", "../node_modules/cypress"]
+}

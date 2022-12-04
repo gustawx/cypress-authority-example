@@ -1,0 +1,23 @@
+{
+  "name": "end-to-end-4fans",
+  "version": "1.0.0",
+  "description": "Test assessment for Artidisnet",
+  "scripts": {
+    "test": "npx cypress run --e2e -b chrome",
+    "open": "npx cypress open --e2e -b chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gustawx/cypress-4fans-example.git"
+  },
+  "author": "Sebastian Kustosz",
+  "license": "Sebastian Kustosz",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.9",
+    "cypress": "^11.2.0",
+    "mochawesome": "7.1.3",
+    "npx": "^3.0.0",
+    "typescript": "^4.9.3"
+  }
+}
