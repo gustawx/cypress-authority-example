@@ -1,10 +1,10 @@
-# cypress-4fans-example
+# cypress-authority-example
 
 Simple UI tests for <https://version.authority.builders/apply> website
 
 ## Where to start
 
-1. `git clone https://github.com/gustawx/cypress-4fans-example.git`
+1. `git clone https://github.com/gustawx/cypress-authority-example.git`
 2. in root dir run: `npm i`
 
 ## Commands
