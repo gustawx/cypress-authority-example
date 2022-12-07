@@ -2,7 +2,7 @@ import { defineConfig } from "cypress";
 
 const config: Cypress.ConfigOptions<any> = {
   e2e: {
-    baseUrl: "https://stage.4fans.com/",
+    baseUrl: "https://version.authority.builders/apply",
     userAgent: "E2E TESTS",
     requestTimeout: 90000,
     responseTimeout: 90000,
