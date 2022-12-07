@@ -1,6 +1,6 @@
 # cypress-4fans-example
 
-Simple UI tests for 4fans website
+Simple UI tests for <https://version.authority.builders/apply> website
 
 ## Where to start
 
@@ -9,11 +9,18 @@ Simple UI tests for 4fans website
 
 ## Commands
 
-1. run all tests:
+1. run all tests and generate full (merged) html report:
+`npm run run-with-report`
+
+2. only run all tests:
 `npm run test`
 
-2. open Cypress:
+3. open Cypress:
 `npm run open`
 
-3. reports and screenshots dir:
+4. reports and screenshots dir:
 `mochawesome-report`
+
+## Artifacts
+
+Report is saved in `mochawesome-report/full_report.html`
